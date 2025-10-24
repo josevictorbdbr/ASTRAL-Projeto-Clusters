@@ -1,0 +1,22 @@
+# Ambiente virtual
+venv/
+
+# Arquivos temporários
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de backup
+*.bak
+*.swp
+
+# Dados grandes
+data/*.fa
+results.joblib
+
+# Configs locais
+*.log
+.DS_Store
+.idea/
+.vscode/
