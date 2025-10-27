@@ -5,8 +5,8 @@ from sklearn.preprocessing import LabelEncoder
 from joblib import dump
 import  pandas as pd
 
-def run_pipeline(X, labels_true):
-    #reduz as dimensoes
+def rodar_pipeline(X, labels_true):
+    #reduz as dimensoes para 300
     pca = PCA(n_components=300)
     X_pca = pca.fit_transform(X)
 

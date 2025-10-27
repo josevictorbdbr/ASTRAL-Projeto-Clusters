@@ -4,7 +4,7 @@ import numpy as np
 import pandas as pd
 from itertools import product
 
-def load_sequences(file_path):
+def carregar_sequencias(file_path):
     seqs = []
     classes = []
     for record in SeqIO.parse(file_path, "fasta"):
@@ -16,8 +16,8 @@ def load_sequences(file_path):
         classes.append(classe)
     return seqs, classes
 
-#gera matrix binaria de kmers com skip
-def generate_kmer_matrix(seqs):
+#gera matrix binaria de kmers
+def gerar_matriz_kmer(seqs):
     aa = list("ACDEFGHIKLMNPQRSTVWY")
     kmers = []
     for a1, a2 in product(aa, repeat=2):
