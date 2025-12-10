@@ -1,3 +1,5 @@
+ASTRAL: PROJETO DE CLUSTERS
+
 O repositório ASTRAL centraliza experimentos e códigos em Python voltados ao estudo de técnicas de clustering, incluindo algoritmos como k-means, DBSCAN e métodos hierárquicos. 
 O projeto contempla etapas de pré-processamento, execução dos modelos, visualização e análise comparativa dos resultados.
 
