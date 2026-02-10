@@ -11,11 +11,11 @@ Recomenda-se o uso de Python 3.8+ e bibliotecas como numpy, pandas, scikit-learn
 
 Instalação e Execução:
 
-. Clone o repositório.
+- Clone o repositório.
 
-. Crie e ative um ambiente virtual.
+- Crie e ative um ambiente virtual.
 
-. Instale as dependências necessárias.
+- Instale as dependências necessárias.
 
 Os experimentos podem ser executados por meio de notebooks disponíveis na pasta notebooks/ ou scripts localizados em src/ ou scripts/. 
 Conjuntos de dados devem ser colocados em data/, conforme indicado pelo código.
